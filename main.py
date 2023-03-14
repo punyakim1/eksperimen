@@ -1,7 +1,12 @@
 import pyrogram
 
 # Initialize the client
-app = pyrogram.Client("my_account")
+app = pyrogram.Client(
+    ":Rexa:",
+    config.API_ID,
+    config.API_HASH,
+    bot_token=config.BOT_TOKEN,
+)
 
 # Start the client
 app.start()
