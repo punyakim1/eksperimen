@@ -12,7 +12,7 @@ app = pyrogram.Client(
 
 # ini buat start nya
 
-@app.on_message(filters.command("mulai"))
+@app.on_message(filters.command("start"))
 async start chat_actions(_, message):
     await app.send_message(message.chat.id, "halo bang, makasih udah start bot ini awoakwoak")
 
