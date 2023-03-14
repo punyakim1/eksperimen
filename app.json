@@ -1,5 +1,5 @@
 {
-    "name": "Contoh doang ya anjing",
+    "name": "yyyyyyy",
     "description": "Bikin barusan",
     "logo": "https://telegra.ph/file/c45933bf2dbccd23afa78.jpg",
     "keywords": [
@@ -17,7 +17,7 @@
         "size": "eco"
       }
     },
-    "repository": "https://github.com/gatau",
+    "repository": "https://github.com/Rexa",
     "env": {
       "API_ID": {
         "description": "Get this value from my.telegram.org/apps.",
@@ -31,6 +31,16 @@
       },
       "BOT_TOKEN": {
         "description": "A Bot token from @BotFather",
+        "required": true,
+        "value": ""
+      },
+      "MONGO_DB_URI": {
+        "description": "Get a mongodb url from https://cloud.mongodb.com.",
+        "required": false,
+        "value": ""
+      },
+      "SUDO_USER": {
+        "description": "The user id(s) of user(s) whom you would like to add as a SUDO_USER, Multiple values shall be seperated with a space.",
         "required": true,
         "value": ""
       }
